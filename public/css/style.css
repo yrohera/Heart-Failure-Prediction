@@ -1,0 +1,82 @@
+body
+{
+    background-color: rgba(156, 11, 11, 0.479)
+}
+
+
+h1
+{
+    position: absolute;
+    top: 10px;
+    font-size: 25px;
+    left: 42.5%;
+    color: white;
+}
+
+input
+{
+   position: absolute;
+   width: 10%;
+   text-align: center;
+   left: 45%;
+   font-size: 15px;
+   border: 0px solid black;
+   border-bottom: 2px solid #999;
+   transition: 0.7s ;
+} 
+
+button
+{
+    position: absolute;
+    width: 10%;
+    text-align: center;
+    left: 45%;
+    height: 5%;
+    background: rgba(70, 68, 68, 0.267);
+    border: 0px ;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.7s;
+    color: white;
+}
+
+input:focus
+{
+    font-size: 17px;
+    width: 12%;
+    left: 44%;
+}
+
+button:hover
+{
+    font-size: 17px;
+    width: 12%;
+    left: 44%;
+}
+#prediction
+{
+    position: absolute;
+    text-align: center;
+    border: 0px solid black;
+    display: block;
+    margin-left: 580px;
+    margin-right: 580px;
+    font-size: 15px;
+    background-color: rgba(184, 175, 175, 0.335);
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 4%;
+    color: white;
+
+}
+
+#video1
+{
+    position: fixed;
+    right: 0px;
+    bottom: 10px;
+    top: 0px;
+    min-width: 100%;
+    min-height: 100%;
+}
